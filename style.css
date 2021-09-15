@@ -1,0 +1,43 @@
+body{
+    font: normal 15px Arial;
+    background: rgb(43, 89, 226);
+    
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+section{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #0000009f;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+button{
+    margin:20px 0;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+#imgIdade{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#imagem{
+    margin: 20px;
+}
