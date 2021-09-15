@@ -18,9 +18,9 @@ document.querySelector('form.idade').addEventListener('submit', (event)=>{
         resultado();
         if(idade >= 0 && idade < 15){
             imagem.src = 'img/h1.jpg'
-        }else if(idade >= 15 && idade < 40){
+        }else if(idade < 40){
             imagem.src = 'img/h2.jpg'
-        }else if(idade >= 40 && idade < 60){
+        }else if(idade < 60){
             imagem.src = 'img/h3.jpg'
         }else{
             imagem.src = 'img/h4.jpg'
@@ -30,9 +30,9 @@ document.querySelector('form.idade').addEventListener('submit', (event)=>{
         resultado();
         if(idade >= 0 && idade < 15){
             imagem.src = 'img/m1.jpg'
-        }else if(idade >= 15 && idade < 40){
+        }else if(idade < 40){
             imagem.src = 'img/m2.jpg'
-        }else if(idade >= 40 && idade < 60){
+        }else if( idade < 60){
             imagem.src = 'img/m3.jpg'
         }else{
             imagem.src = 'img/m4.jpg'
