@@ -1,5 +1,7 @@
 # Verificador de idade
 
+Curso em video
+
 Minha versão para o desafio proposto pelo prof Gustavo Guanabara.
 
 ## Desafio:
